@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>S.B. JAIN STUDENTS PERSONAL DETAILS</title>
+</head>
+<body bgcolor="lightyellow">
+<h2 align="center"><font color="blue">STUDENTS INFORMATION</font></h2>
+<table border="1" align="center" cellpadding="8">
+<tr bgcolor="lightblue">
+    <th rowspan="2">Name</th>
+    <th rowspan="2">E-mail id</th>
+    <th rowspan="2">Address</th>
+    <th colspan="2">Phone Number</th>
+</tr>
+<tr bgcolor="lightpink">
+<th>Personal</th>
+<th>Parent's</th>
+</tr>
+<tr>
+<td><font color="red">Devika Parsatwar</font></td>
+<td><font color="green">devikap.ml25@sbjit.edu.in</font></td>
+<td><font color="purple">Gittikhadan</font></td>
+<td><font color="brown">8709******</font></td>
+<td><font color="brown">9098******</font></td>
+</tr>
+<tr>
+<td><font color="red">Kanak Bhimte</font></td>
+<td><font color="green">kanakb.ml25@sbjit.edu.in</font></td>
+<td><font color="purple">Godhani</font></td>
+<td><font color="brown">7862******</font></td>
+<td><font color="brown">9120******</font></td>
+</tr>
+<tr>
+<td><font color="red">Dhruvi Bhajbhuje</font></td>
+<td><font color="green">dhruvib.ml25@sbjit.edu.in</font></td>
+<td><font color="purple">Bhandara</font></td>
+<td><font color="brown">8788******</font></td>
+<td><font color="brown">9921******</font></td>
+</tr>
+<tr>
+<td><font color="red">Vanshika Mishra</font></td>
+<td><font color="green">vanshikam.ml25@sbjit.edu.in</font></td>
+<td><font color="purple">Friends Colony</font></td>
+<td><font color="brown">9467******</font></td>
+<td><font color="brown">8605******</font></td>
+</tr>
+<tr>
+<td><font color="red">Ayush Pohare</font></td>
+<td><font color="green">ayushp.ml25@sbjit.edu.in</font></td>
+<td><font color="purple">Nandanvan</font></td>
+<td><font color="brown">8956******</font></td>
+<td><font color="brown">9513******</font></td>
+</tr>
+</table>
+</body>
+</html>
