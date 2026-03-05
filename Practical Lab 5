@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devika Parsatwar - Resume</title>
+
+    <style>
+        body {
+            font-family: Calibri, sans-serif;
+            margin: 20px;
+            background-color: #dbd6fa;
+        }
+
+        .resume {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 900px;
+            margin: auto;
+        }
+
+        h1 {
+            color: #170b40;
+        }
+
+        h2 {
+            color: #170b40;
+            border-bottom: 2px solid #170b40;
+            padding-bottom: 5px;
+        }
+
+        .profile {
+            float: right;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #dbd6fa;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        a {
+            color: #0367d2;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            margin-top: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="resume">
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBE5qb1ASC28sOBYAMLW77Pie7sNzxS-76og&s" class="profile" alt="Profile Photo">
+
+        <h1>Devika Parsatwar</h1>
+
+        <h3>Currently pursuing B.Tech in CSE (Artificial Intelligence & Machine Learning)</h3>
+
+        <p><strong>Email:</strong> <a href="mailto:devikaoarsatwar02@gmail.com">devikaparsatwar02@gmail.com</a></p>
+
+        <p><strong>Phone:</strong> +91 9209407838</p>
+
+        <hr>
+
+        <h2>About Me</h2>
+
+        <p>
+            First-year B.Tech student in Computer Science (AI & ML) with strong interest in artificial intelligence,
+            data-driven technologies, and problem-solving. Detail-oriented and analytical with a creative mindset
+            from experience in photo and video editing. Passionate about learning emerging technologies and
+            building innovative technical projects.
+        </p>
+
+        <h2>Education</h2>
+
+        <table>
+
+            <tr>
+                <th>Degree</th>
+                <th>Specialization</th>
+                <th>Institution</th>
+                <th>University</th>
+                <th>Year</th>
+                <th>Score</th>
+            </tr>
+
+            <tr>
+                <td>B.Tech</td>
+                <td>CSE (AI & ML)</td>
+                <td>S.B. Jain Institute of Technology, Management & Research</td>
+                <td>RMTNU</td>
+                <td>2026 - Present</td>
+                <td>Pursuing</td>
+            </tr>
+
+            <tr>
+                <td>HSC</td>
+                <td>Science (PCM)</td>
+                <td>Priya Vidya Vihar Jr College</td>
+                <td>Maharashtra State Board</td>
+                <td>2025</td>
+                <td>60%</td>
+            </tr>
+
+            <tr>
+                <td>SSC</td>
+                <td>-</td>
+                <td>Providence Girl's High School</td>
+                <td>Maharashtra State Board</td>
+                <td>2023</td>
+                <td>80%</td>
+            </tr>
+
+        </table>
+
+        <h2>Projects</h2>
+
+        <ul>
+            <li>Simple Calculator using C programming</li>
+            <li>Student Record Management System in C</li>
+            <li>Basic Resume Website using HTML & CSS</li>
+        </ul>
+
+        <h2>Technical Skills</h2>
+
+        <ul>
+            <li>C Programming</li>
+            <li>C++ (Basic)</li>
+            <li>Web Designing (HTML & CSS - Basic)</li>
+            <li>MS Office (Word, PowerPoint, Excel)</li>
+        </ul>
+
+        <h2>Creative Skills</h2>
+
+        <ul>
+            <li>Photo Editing</li>
+            <li>Video Editing</li>
+            <li>Drawing / Sketching</li>
+        </ul>
+
+        <h2>Soft Skills</h2>
+
+        <ul>
+            <li>Quick Learner</li>
+            <li>Teamwork & Communication</li>
+            <li>Problem Solving</li>
+            <li>Analytical Thinking</li>
+        </ul>
+
+        <h2>Experience</h2>
+
+        <ul>
+            <li>Developed mini projects using C programming.</li>
+            <li>Participated in college technical events.</li>
+            <li>Participated in a National Level Hackathon.</li>
+        </ul>
+
+    </div>
+
+</body>
+
+</html>
