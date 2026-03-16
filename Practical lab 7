@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tribute to Chandrayaan-3</title>
+<style>
+body{
+margin:0;
+font-family: Arial, sans-serif;
+background: linear-gradient(to right,#0f2027,#203a43,#2c5364);
+color:white;
+}
+nav{
+background:black;
+padding:15px;
+text-align:center;
+}
+nav a{
+color:white;
+text-decoration:none;
+margin:0 20px;
+font-size:18px;
+}
+nav a:hover{
+color:yellow;
+}
+.container{
+width:80%;
+margin:auto;
+background:rgba(0,0,0,0.6);
+padding:20px;
+border:2px solid white;
+margin-top:20px;
+}
+.header{
+text-align:center;
+padding:20px;
+border-bottom:2px solid white;
+}
+img{
+display:block;
+margin:20px auto;
+width:300px;
+border:4px solid white;
+border-radius:10px;
+}
+.section{
+margin-top:20px;
+padding:15px;
+border:2px solid white;
+border-radius:8px;
+}
+footer{
+text-align:center;
+padding:15px;
+background:black;
+margin-top:20px;
+}
+</style>
+</head>
+<body>
+<nav>
+<a href="#home">Home</a>
+<a href="#about">Mission</a>
+<a href="#achievement">Achievement</a>
+<a href="#tribute">Tribute</a>
+</nav>
+<div class="container">
+<div class="header" id="home">
+<h1>Tribute to Chandrayaan-3</h1>
+<p>India’s Historic Journey to the Moon</p>
+</div>
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Chandrayaan-3_Lander_Model.jpg" alt="Chandrayaan 3">
+<div class="section" id="about">
+<h2>About the Mission</h2>
+<p>
+Chandrayaan-3 is India's third lunar mission launched by the Indian Space Research Organisation (ISRO).
+The mission successfully landed on the Moon on 23 August 2023, making India the fourth country in
+the world to achieve a soft landing on the lunar surface.
+</p>
+</div>
+<div class="section" id="achievement">
+<h2>Historic Achievements</h2>
+<ul>
+<li>First country to land near the Moon’s south pole.</li>
+<li>India became the 4th nation to achieve a soft landing on the Moon.</li>
+<li>The Vikram lander and Pragyan rover conducted experiments on the lunar surface.</li>
+<li>Showcased India's growing strength in space technology.</li>
+</ul>
+</div>
+<div class="section" id="tribute">
+<h2>Tribute</h2>
+<p>
+This mission is a tribute to the dedication, intelligence, and hard work of Indian scientists.
+Chandrayaan-3 inspired millions of students and proved that with determination and innovation,
+India can achieve extraordinary milestones in space exploration.
+</p>
+</div>
+</div>
+<footer>
+<p>Tribute Page | Chandrayaan-3 | Created with HTML & Internal CSS</p>
+</footer>
+</body>
+</html>
