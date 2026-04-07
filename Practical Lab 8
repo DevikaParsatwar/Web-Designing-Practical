@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Image Gallery</title>
+<style>
+/* Page styling */
+body {
+font-family: 'Trebuchet MS', sans-serif; /* Changed font */
+background: linear-gradient(to right, #ffecd2, #fcb69f); /* Warm gradient background */
+margin: 0;
+padding: 20px;
+text-align: center;
+}
+h1 {
+font-family: 'Georgia', serif; /* Different font for heading */
+color: #2c3e50;
+margin-bottom: 30px;
+text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+/* Gallery grid */
+.gallery {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+gap: 20px;
+padding: 10px;
+}
+/* Image card styling */
+.image-card {
+position: relative;
+overflow: hidden;
+border-radius: 12px;
+box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+background: #fff;
+transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+.image-card img {
+width: 100%;
+height: auto;
+display: block;
+transition: transform 0.4s ease;
+}
+/* Caption styling */
+.caption {
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+background: rgba(44,62,80,0.7);
+color: #ecf0f1;
+padding: 10px;
+font-size: 16px;
+font-family: 'Verdana', sans-serif;
+opacity: 0;
+transition: opacity 0.4s ease;
+}
+/* Hover effects */
+.image-card:hover {
+transform: scale(1.05);
+box-shadow: 0 12px 20px rgba(0,0,0,0.3);
+}
+.image-card:hover img {
+transform: scale(1.1);
+}
+.image-card:hover .caption {
+opacity: 1;
+}
+</style>
+</head>
+<body>
+<h1>My AI Image Gallery</h1>
+<div class="gallery">
+<div class="image-card">
+<img src="images/ai1.jpg" alt="AI Art 1">
+<div class="caption">AI Artwork 1</div>
+</div>
+<div class="image-card">
+<img src="images/ai2.jpg" alt="AI Art 2">
+<div class="caption">AI Artwork 2</div>
+</div>
+<div class="image-card">
+<img src="images/ai3.jpg" alt="AI Art 3">
+<div class="caption">AI Artwork 3</div>
+</div>
+<div class="image-card">
+<img src="images/ai4.jpg" alt="AI Art 4">
+<div class="caption">AI Artwork 4</div>
+</div>
+<div class="image-card">
+<img src="images/ai5.jpg" alt="AI Art 5">
+<div class="caption">AI Artwork 5</div>
+</div>
+<div class="image-card">
+<img src="images/ai6.jpg" alt="AI Art 6">
+<div class="caption">AI Artwork 6</div>
+</div>
+</div>
+</body>
+</html>
