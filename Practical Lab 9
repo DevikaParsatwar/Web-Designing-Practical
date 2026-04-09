@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+ <title>Responsive CSS3 Webpage</title>
+ <!-- Google Fonts -->
+ <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+ <!-- Font Awesome Icons -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"><style>
+ body {
+ font-family: 'Poppins', sans-serif;
+ margin: 0;
+ background: linear-gradient(to right, #74ebd5, #ACB6E5);
+ color: #333;
+ } header {
+ text-align: center;
+ padding: 20px;
+ background: #2c3e50;
+ color: white;
+ }
+ header h1 {
+ font-size: 2.5em;
+ animation: fadeIn 2s ease-in-out;
+ } nav {
+ display: flex;
+ justify-content: center;
+ background: #34495e;
+ }nav a {
+color: #ecf0f1;
+ padding: 14px 20px;
+ text-decoration: none;
+ transition: transform 0.3s ease, background 0.3s ease;
+ } nav a:hover {
+ background: #1abc9c;
+ transform: scale(1.1);
+ }.container {
+ column-count: 2;
+ column-gap: 30px;
+ padding: 20px;
+ }.card {
+ background: #fff;
+ margin: 0 0 20px;
+ padding: 20px;
+ border-radius: 10px;
+ box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+ transition: transform 0.4s ease;
+ }
+ .card:hover {
+ transform: translateY(-10px) rotate(-1deg);
+ }.card h2 {
+ color: #2c3e50;
+ } .icon {
+font-size: 40px;
+ color: #1abc9c;
+ margin-bottom: 10px;
+ animation: bounce 2s infinite;
+ } footer {
+ text-align: center;
+ padding: 15px;
+ background: #2c3e50;
+ color: white;
+ margin-top: 20px;
+ }/* Animations */
+ @keyframes fadeIn {
+ from { opacity: 0; transform: translateY(-20px); }
+ to { opacity: 1; transform: translateY(0); }
+ } @keyframes bounce {
+ 0%, 100% { transform: translateY(0); }
+ 50% { transform: translateY(-10px); }
+ }
+ /* Responsive layout */
+ @media (max-width: 768px) {
+ .container {
+ column-count: 1;
+ }
+ }
+ </style>
+</head>
+<body>
+ <header>
+ <h1>My Responsive CSS3 Page</h1>
+ </header>
+ <nav>
+ <a href="#"><i class="fas fa-home"></i> Home</a>
+ <a href="#"><i class="fas fa-user"></i> Profile</a>
+ <a href="#"><i class="fas fa-envelope"></i> Contact</a>
+ </nav>
+ <div class="container">
+ <div class="card">
+ <div class="icon"><i class="fas fa-laptop-code"></i></div>
+ <h2>Web Development</h2>
+ <p>Learn how to build modern, responsive websites using HTML5, CSS3, and JavaScript.</p>
+ </div>
+ <div class="card">
+ <div class="icon"><i class="fas fa-brain"></i></div>
+ <h2>Artificial Intelligence</h2>
+ <p>Explore the world of AI, machine learning, and neural networks with practical projects.</p>
+ </div>
+ <div class="card">
+ <div class="icon"><i class="fas fa-paint-brush"></i></div>
+ <h2>Design</h2>
+<p>Create stunning visuals and user interfaces with modern design principles and tools.</p>
+ </div>
+ <div class="card">
+ <div class="icon"><i class="fas fa-globe"></i></div>
+ <h2>Global Reach</h2>
+ <p>Build applications that connect people across the globe with responsive and accessible design.</p>
+ </div>
+ </div>
+<footer>
+ <p>Responsive Webpage Project using CSS3 Features</p>
+ </footer>
+</body>
+</html
